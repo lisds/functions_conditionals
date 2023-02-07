@@ -6,7 +6,8 @@ test = {
       'cases': [
         {
           # rng = np.random.default_rng()
-          # trials = rng.integers(1, 11, size=(10000, 1000))
+          # choices = np.arange(1, 11)
+          # trials = rng.choice(choices, size=(10000, 1000))
           # scores = np.sum(trials, axis=1)
           # np.min(scores), np.max(scores)
           'code': r"""
